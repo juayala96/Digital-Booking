@@ -1,4 +1,9 @@
 # DigitalBooking
+
+![Sitio DigitalBooking](https://github.com/juayala96/Digital-Booking/assets/57917174/b70960a5-2b4e-47df-881a-f419c74cc915)
+
+
+
 ## Introducción
 El proyecto DigitalBooking consiste en el desarrollo completo de una aplicación web para la reserva online de alojamientos donde se encuentra una gran variedad de hospedajes organizados en categorías y ubicados en diferentes ciudades del mundo. Los usuarios podrán registrarse, ingresar y reservar aquel que mejor se adapte a sus preferencias y necesidades.
 ## Objetivos
