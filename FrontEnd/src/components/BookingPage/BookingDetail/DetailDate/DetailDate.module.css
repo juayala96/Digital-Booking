@@ -1,0 +1,29 @@
+.detail_date{
+    padding: 25px;
+}
+
+.detail_date hr{
+    border-top: 0.01rem rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    width: 100%;
+    padding: 0%;
+}
+
+.detail_date p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.check_in_out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 1023px){
+    .detail_date{
+        padding: 0px 25px
+    }
+}

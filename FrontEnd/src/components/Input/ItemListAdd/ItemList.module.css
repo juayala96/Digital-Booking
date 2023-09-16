@@ -1,0 +1,23 @@
+.images_container {
+    border-radius: 5px;
+    padding: 20px;
+    opacity: 50%;
+    background-color: var(--background-color-body);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.images_container input {
+    width: 100%;
+
+}
+
+.alert span {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--alert-border);
+    padding: 0.5rem;
+}

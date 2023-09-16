@@ -1,0 +1,25 @@
+/* Descripcion del producto */
+
+.description {
+    padding: 10px 40px;
+    min-width: 300px;
+}
+
+
+
+.description p {
+    color: var(--font-color-dark);
+    font-size: 1.4rem;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+
+h2 {
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+hr {
+    border: 1px;
+    width: 100%;
+}

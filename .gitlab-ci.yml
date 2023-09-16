@@ -1,0 +1,111 @@
+variables:
+  RULES_CHANGES_PATH: "**/*"
+  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+  AWS_SECRET_ACCES_KEY: $AWS_SECRET_ACCES_KEY
+  AWS_S3_URL: $AWS_S3_URL
+
+stages:
+  - build
+  - test
+  - deploy
+
+.base-rules:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - $RULES_CHANGES_PATH
+    - when: manual
+      allow_failure: true
+
+.backend:
+  extends: .base-rules
+  variables:
+    RULES_CHANGES_PATH: "BackEnd/**/*"
+
+.frontend:
+  extends: .base-rules
+  variables:
+    RULES_CHANGES_PATH: "FrontEnd/**/*"
+
+
+frontend-build:
+  image: node:16.14.2-alpine
+  stage: build
+  extends: .frontend
+  needs: []
+  script:
+    - echo "Compiling the frontend code..."
+    - ls -la
+    - cd FrontEnd
+    - npm install 
+    - CI=false npm run build
+    - echo "Compile complete."
+  artifacts:
+    paths:
+    - FrontEnd/build
+
+frontend-test:
+  stage: test
+  extends: .frontend
+  needs: ["frontend-build"]
+  script:
+    - echo "Testing the frontend code..."
+  artifacts:
+    paths:
+    - FrontEnd/build
+
+    
+frontend-deploy:
+  image: python:latest
+  stage: deploy
+  extends: .frontend
+  needs: ["frontend-test"]
+  script:
+    - echo "Deploying the frontend app..."
+    - pip install awscli
+    - aws configure set aws_acces_key_id $AWS_ACCESS_KEY_ID
+    - aws configure set aws_secret_acces_key  $AWS_SECRET_ACCES_KEY
+    - aws s3 sync FrontEnd/build s3://grupo5-0521ptc6n2 --delete
+
+backend-build:
+  image: maven:latest
+  stage: build
+  extends: .backend
+  needs: []
+  script:
+    - echo "Building the backend code..."
+    - cd BackEnd/proyecto-integrador/demo/
+    - mvn clean package -DskipTests -U
+  artifacts:
+    paths:
+    - BackEnd/proyecto-integrador/demo/target/*.jar
+
+
+backend-test:
+  stage: test
+  extends: .backend
+  needs: ["backend-build"]
+  script:
+    #- cd BackEnd/proyecto-integrador/demo/
+    - echo "Testing the backend code..."
+  artifacts:
+    paths:
+    - BackEnd/proyecto-integrador/demo/target/*.jar
+
+
+backend-deploy:
+  stage: deploy
+  extends: .backend
+  needs: ["backend-test"]
+  before_script:
+    - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )'
+    #The ssh-agent command outputs commands to set ce - cp -r * .publicrtain environment variables in the shell
+    - eval $(ssh-agent -s) #The eval command tells the shell to run the output of ssh-agent as shell commands
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - #"$SSH_PRIVATE_KEY" in this we added private key in variable
+    - mkdir -p ~/.ssh #create a directory
+    - chmod 700 ~/.ssh #usually the tools which use that directory will ask you to assign permissions to it
+    - ssh-keyscan $EC2_IPADDRESS >> ~/.ssh/known_hosts #"$EC2_IPADDRESS" in this we added our instance ip_address in variable
+    - chmod 644 ~/.ssh/known_hosts #this is key file permission  
+  script:
+    - scp -o StrictHostKeyChecking=no BackEnd/proyecto-integrador/demo/target/demo-0.0.1-SNAPSHOT.jar ubuntu@52.14.221.16:/home/ubuntu/
+    - ssh -o StrictHostKeyChecking=no ubuntu@52.14.221.16 "/home/ubuntu/scripts/shutdown.sh;/home/ubuntu/scripts/startup.sh"

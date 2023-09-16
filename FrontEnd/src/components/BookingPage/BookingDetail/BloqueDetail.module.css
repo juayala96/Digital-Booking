@@ -1,0 +1,115 @@
+.bloque_detail{
+    margin-top: 75px;
+    border-radius: 10px;
+    background-color: var(--font-color-light);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+
+.bloque_detail h3 {
+    padding: 20px 25px;
+    margin: 0px;
+}
+
+.detail_picture img {
+    width: 100%;
+    height: 300px
+}
+
+.button_container {
+    padding: 40px 20px 20px 20px;
+}
+
+.button_reserva {
+    width: 100%;
+    height: 40px;
+    margin: 1rem 2.5rem 3rem;
+    color: #FFFFFF;
+    /* B -DB COLOR PRINCIPAL */
+    background: #1dbeb4;
+    /* botton sombra */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border: 0;
+
+    border-radius: 5px;
+    transform: rotate(-0.16deg);
+    text-align: center;
+}
+
+.alert_container{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.alert {
+    color: var(--alert-border);
+    padding: 0px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .bloque_detail{
+        margin-top: 0px;
+    }
+    
+    .bloque_detail_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .detail_picture {
+        width: 100%;
+        height: 330px;
+        padding: 0px 25px;
+    }
+
+    .detail_picture img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .bloque_detail_title{
+        width: 50%;
+    }
+
+    .bloque_detail_body {
+        width: 50%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+        .bloque_detail {
+                margin-top: 0px;
+            }
+
+    .bloque_detail_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloque_detail_title {
+        width: 100%;
+    }
+
+    .bloque_detail_body {
+        width: 100%;
+    }
+
+    .detail_picture {
+        height: 100%;
+        border-radius: 10px;
+        padding: 0px 25px ;
+    }
+
+    .detail_picture img {
+        height: 100%;
+        border-radius: 10px;
+    }
+
+}

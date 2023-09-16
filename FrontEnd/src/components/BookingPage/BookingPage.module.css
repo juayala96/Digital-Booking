@@ -1,0 +1,81 @@
+.container{
+    background-color: var(--background-color-body);
+    color: var(--secondary);
+    height: 100hv;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 40px 40px;
+    position: relative;
+    min-width: 300px;
+}
+
+.main_container{
+    position: relative;
+}
+
+.booking_date_calendar_container {
+    width: 100%;
+    padding: 0px;
+}
+
+.first_column{
+    width: 65%;
+}
+
+.second_column {
+    width: 35%;
+    height: 100%;
+   
+}
+
+.calendar_select{
+    width: 100%;
+    padding-bottom: 20px;
+    min-width: 300px;
+}
+
+.react-datepicker {
+    margin: 0px 40px;
+}
+
+h3 {    
+    padding: 0px;
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+h4 {
+    margin: 0%;
+    padding: 0px 25px;
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+h5{ 
+    margin: 0%;
+    padding: 40px 25px 0px;
+    font-size: 1.4rem;
+    color: #a7a8b5;
+    font-weight: lighter;
+}
+
+
+@media (max-width:1023px) {
+
+    .container {
+        flex-direction: column;
+
+    }
+
+        .first_column {
+            width: 100%;
+        }
+    
+        .second_column {
+            width: 100%;
+    
+        }
+    
+}

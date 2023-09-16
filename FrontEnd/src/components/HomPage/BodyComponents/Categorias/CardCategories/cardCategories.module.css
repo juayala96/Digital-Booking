@@ -1,0 +1,44 @@
+.card{
+  border: 1px solid #F3F1ED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 95%;
+  margin: 1rem;
+}
+.description{
+    color: var(--tertiary);
+    margin: 0rem 0rem 1rem 1rem;
+    font-size: 1.4rem;
+}
+.title{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.7rem;
+  color: var(--secondary);
+  margin: 0.7rem 1rem;
+}
+.image{
+  width: 100%;
+  max-height: 25rem;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+@media screen and (min-width: 481px) {
+  .card{
+    flex: 45%;
+    margin: 0.5rem;
+  }
+  .image{
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .card{
+    flex: 24%;
+  }
+  .image{
+    height: 20rem;
+  }
+}

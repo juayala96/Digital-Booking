@@ -1,0 +1,40 @@
+*{
+    font-weight: 700;
+    font-size:16px;
+    
+}
+
+.footer {
+    background-color: var(--primary);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+    min-width: 380px;
+
+}
+
+.footer p {
+    color: #fff;
+    padding-left: 40px;
+    
+}
+
+.redesFooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redesFooter img {
+    padding-right: 40px;
+    height: 50%;
+    width: 50%;
+}
+
+@media (max-width: 767.5px) {
+    .redesFooter {
+        display: none;
+    }
+}

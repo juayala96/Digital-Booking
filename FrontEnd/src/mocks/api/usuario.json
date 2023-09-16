@@ -1,0 +1,12 @@
+[   
+    {
+        "id": 1,
+        "nombre": "ROL_ADMIN",
+        "descripcion": "Administrador de propiedades"
+    },
+    {
+        "id": 2,
+        "nombre": "ROL_USER",
+        "descripcion": "Usuario inquilino"
+    }
+]

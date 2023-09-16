@@ -1,0 +1,61 @@
+h3 {
+    padding: 0px;
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+h4 {
+    margin: 0%;
+    padding: 0px 25px;
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+.categoria_bloque {
+    margin: 0%;
+    padding: 40px 25px 0px;
+    font-size: 1.4rem;
+    color: #a7a8b5;
+    font-weight: lighter;
+}
+.location {
+    color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 40px;
+    height: 50px;
+
+}
+
+.bloque_location_icon {
+    width: 10px;
+    height: 14px;
+}
+
+.bloque_location_info p {
+    font-size: 1.4rem;
+    padding-left: 10px;
+    margin: 0%;
+}
+
+.icon_share_fav {
+    padding: 10px 40px;
+}
+
+.icon_share_fav img {
+    padding-right: 15px
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .categoria_bloque{
+        padding: 0px 25px ;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .categoria_bloque {
+        padding: 25px 25px 0px;
+    }
+}

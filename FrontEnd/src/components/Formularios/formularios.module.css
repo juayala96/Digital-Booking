@@ -1,0 +1,121 @@
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1DBEB4;
+}
+label {
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.form_component_name_lastname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    width: 100%
+}
+
+.form_container {
+  flex-direction: column;
+  width: 40rem;
+
+}
+
+.login_form{
+    padding-top: 4rem;
+    height: 55rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-width: 380px;
+}
+
+.register_form {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    min-width: 380px;
+}
+.button_submit{
+    margin-top: 2rem;
+}
+
+.switch_path_component{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch_path_link {
+    color: var(--primary);
+}
+
+.error_input {
+    border: 1px solid #FF0000;
+    background-color: #FFE1E1;
+}
+
+.warning_booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FFE1E1;
+    height: 5rem;
+    padding-left: 1rem;
+}
+
+.warning {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: var(--alert-border);
+    color: var(--font-color-light);
+}
+
+.warning_booking p {
+    padding: 15px;
+}
+
+.warning_user{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+}
+
+@media (max-width: 1023.5px){
+    .form_component_name_lastname {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            width: 100%
+        }
+}
+
+@media (max-width:767.5px) {
+    .warning_booking {
+            height: 80px;
+        }
+    .form_container {
+        width: 70%;            
+    }
+}
+@media screen and (max-width:400px){
+    .body_form{
+        height: 65rem;
+    }
+}

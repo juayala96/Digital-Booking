@@ -1,0 +1,19 @@
+[
+    {
+    "id": "1",
+    "titulo": "Hoteles"
+    },
+    {
+    "id": "2",
+    "titulo": "Hostels"
+    },
+    {
+    "id": "3",
+    "titulo": "Departamentos"
+    },
+    {
+    "id": "4",
+    "titulo": "Bed and breakfast",
+    "descripcion": "807.105 bed and breakfast"
+    }
+    ]

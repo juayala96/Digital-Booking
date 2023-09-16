@@ -1,0 +1,138 @@
+/* Reservas*/
+
+.reservation {
+    padding: 10px 40px;
+    background-color: var(--background-color-body);
+    min-width: 300px
+}
+
+.reservation_container {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.calendar_product {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.react-datepicker {
+    margin: 0%;
+    width: 100vw;
+    height: 27rem;
+    min-width: 22rem;
+}
+
+.reservation_start {
+    border-radius: 5px;
+    background-color: var(--font-color-light);
+    padding: 15px;
+    width: 35%;
+    text-align: center;
+
+}
+
+.reservation_start p {
+    color: var(--font-color-dark);
+    font-weight: lighter;
+}
+
+.reservation_start button {
+    width: 100%;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--font-color-light);
+    border: 0px;
+    border-radius: 5px;
+}
+
+/* Titulo de cada container */
+
+h2 {
+    color: var(--secondary);
+    font-size: 2.4rem;
+}
+
+hr {
+    border: 1px;
+    width: 100%;
+}
+
+.show_error {
+    position: absolute;
+    color: var(--secondary);
+    padding: 10px 0px;
+    margin: 0px;
+
+}
+
+/* Responsive - Tablet and mobile */
+
+@media screen and (max-width:1023px) {
+    .reservation_container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .reservation_start button {
+        width: 50%;
+    }
+
+    .calendar_product {
+        width: 100%;
+    }
+
+    .react-datepicker {
+        flex: 0 0 auto;
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .reservation_start {
+        background-color: var(--background-color-body);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0px;
+        gap: 10px;
+
+    }
+
+        .reservation_start p {
+            width: 50%;
+        }
+        .reservation_start button {
+            width: 50%;
+        }
+
+}
+
+@media screen and (max-width:767px) {
+    .reservation_container {
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+    .reservation_start {
+            background-color: var(--background-color-body);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+    
+        .reservation_start p {
+            width: 100%;
+        }
+}

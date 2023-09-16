@@ -1,0 +1,6 @@
+.alert span {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--alert-border);
+    padding: 0.5rem;
+}

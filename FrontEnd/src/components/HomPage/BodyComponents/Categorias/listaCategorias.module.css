@@ -1,0 +1,22 @@
+.categories_container{
+    padding: 10px 40px;
+    min-width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title{
+    font-size: 2rem;
+    color: #383B58;
+    margin: 2rem 0rem 0rem 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        flex-wrap: nowrap;
+    }
+}
+

@@ -1,0 +1,77 @@
+.header_user_logged {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.userInformation {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_profile button {
+    margin-left: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1DBEB4;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        border: 1px solid #1DBEB4;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+}
+
+.avatar_header {
+    width: 37px;
+    height: 37px;
+    background-color: #383B58;
+    color: #FFFFFF;
+    border-radius: 50%;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar_header p {
+    margin: 0%;
+    padding: 0%;
+    color: #383B58;
+}
+
+.cerrar_header:hover{
+    cursor: pointer;
+}
+
+.userInfo_header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.userInfo_header p {
+    padding: 0%;
+    margin: 0%;
+}
+.userGreet_header {
+    color: rgba(0, 0, 0, 0.5);
+}
+.userName_header {
+    color: #1DBEB4;
+}
+
+@media (max-width:767.5px){
+    .header_user_logged {
+        display:none;
+    }
+    }

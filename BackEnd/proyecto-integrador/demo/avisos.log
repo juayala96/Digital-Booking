@@ -1,0 +1,66 @@
+[2022-11-1721:45:30] [ ERROR] [GlobalExceptions:21] No existe un usuario con el ID: 1
+[2022-11-1721:46:41] [ ERROR] [GlobalExceptions:21] No existe un producto con el ID: 1243
+[2022-11-1722:43:03] [ ERROR] [GlobalExceptions:21] No existe un producto con el ID: 0
+[2022-11-1722:43:12] [ ERROR] [GlobalExceptions:21] No existe un usuario con el ID: 0
+[2022-11-1722:56:08] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:19:22] [ ERROR] [GlobalExceptions:21] No existe un producto con el ID: 0
+[2022-11-1723:20:08] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:20:40] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:21:06] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:21:25] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:22:07] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:22:45] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:47:02] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-1723:47:19] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-2519:28:52] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-11-2521:18:48] [ ERROR] [GlobalExceptions:21] No existe un producto con el ID: 0
+[2022-11-2521:18:56] [ ERROR] [GlobalExceptions:21] No existe un usuario con el ID: 0
+[2022-12-0120:39:47] [ ERROR] [GlobalExceptions:21] Fechas inválidas
+[2022-12-0520:14:23] [ ERROR] [GlobalExceptions:21] No existe ciudad con id 0
+[2022-12-0520:16:49] [ ERROR] [GlobalExceptions:21] No existe ciudad con id 0
+[2022-12-0520:16:56] [ ERROR] [GlobalExceptions:21] No existe provincia con id 0
+[2022-12-0520:17:02] [ ERROR] [GlobalExceptions:21] No existe categoria con id 0
+[2022-12-0520:30:19] [ ERROR] [GlobalExceptions:21] No existe provincia con id 0
+[2022-12-0520:48:48] [ ERROR] [GlobalExceptions:21] No existe provincia con id 0
+[2022-12-0520:56:15] [ ERROR] [GlobalExceptions:21] No existe un turn con el ID: 0
+[2022-12-0520:56:45] [ ERROR] [GlobalExceptions:21] No existe una categoria con el ID: 0
+[2022-12-0620:45:21] [ ERROR] [GlobalExceptions:21] El email ya se encuentra registrado
+[2022-12-0620:55:17] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0620:55:23] [ ERROR] [GlobalExceptions:21] El email ya se encuentra registrado
+[2022-12-0621:05:16] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:05:31] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0621:07:38] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0621:09:15] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:09:24] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:09:30] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:09:37] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:09:59] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:10:10] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:10:18] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:15] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:21] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:27] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:37] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:39] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:47] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:11:59] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:13:48] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:16:09] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0621:16:14] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0621:16:25] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0719:59:14] [ ERROR] [GlobalExceptions:21] La email ingresado no es valido
+[2022-12-0719:59:22] [ ERROR] [GlobalExceptions:21] La contraseña debe tener al menos 6 caracteres
+[2022-12-0720:12:18] [ ERROR] [GlobalExceptions:21] El email ya se encuentra registrado
+[2022-12-0721:14:40] [ ERROR] [GlobalExceptions:21] El email ya se encuentra registrado
+[2022-12-0721:15:45] [ ERROR] [GlobalExceptions:21] No existe usuario con id 0
+[2022-12-0722:27:01] [ ERROR] [GlobalExceptions:21] No existe usuario con id 0
+[2022-12-0722:32:52] [ ERROR] [GlobalExceptions:21] El email ya se encuentra registrado
+[2022-12-0722:35:09] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-0722:35:24] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-0722:40:04] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-0722:42:39] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-0722:45:42] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-0722:52:04] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-1118:57:23] [ ERROR] [GlobalExceptions:21] No existe usuario con id 0
+[2022-12-1201:34:52] [ ERROR] [GlobalExceptions:21] No hay reserva disponible para esos dias
+[2022-12-1218:43:06] [ ERROR] [GlobalExceptions:21] No existe usuario con id 0

@@ -1,0 +1,128 @@
+.cerrar_menu_drawer {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: #1DBEB4;
+    border: #1DBEB4;
+}
+
+.menu_drawer_logged{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        width: 70%;
+        height: 100%;
+        padding-right: 0px;
+        margin-right: 0px;
+        
+}
+
+.barra_menu_drawer_logged{
+    background-color: #1DBEB4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.greet_menu_drawer {
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: right;
+    
+}
+
+.avatar_menu_drawer{
+    display: flex;
+    color: #545776;
+    background-color: #FFFFFF ;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.greet_menu_drawer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+
+.userGreet_menu_drawer{
+    margin: 0%;
+
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.userName_menu_drawer {
+    margin: 0%;
+    padding-bottom: 10px;
+
+    color: #383B58;
+}
+
+.log_out_menu_drawer{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.log_out_text{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    
+}
+.log_out_text p {
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+
+hr {
+    height: 0.1px;
+    width: 95%;
+    background-color: #545776;
+
+}
+.log_out_color_text_menu_drawer{
+    color: #1DBEB4;
+}
+.redes_menu_drawer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0%;
+}
+.redes_menu_drawer img {
+    padding-right: 15px;
+}
+
+.menu_drawer_body_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper_body_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.btnMobile{
+    border: 0rem;
+    padding: 2rem 1rem;
+}

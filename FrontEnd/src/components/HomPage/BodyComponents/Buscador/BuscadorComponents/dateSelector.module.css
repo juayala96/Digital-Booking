@@ -1,0 +1,20 @@
+/* Calendar input & icon */
+.calendar {
+  position: relative;
+  width: 40%;
+}
+
+.calendarIcon {
+  color: var(--font-color-placeholder);
+  font-size: 27px;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .calendar {
+    width: 90%;
+  }
+}

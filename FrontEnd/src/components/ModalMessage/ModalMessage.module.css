@@ -1,0 +1,70 @@
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    top: 0px;
+    left: 0px;
+    min-width: 380px;
+}
+
+.campo {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    z-index: 2;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DFE4EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--font-color-light);
+    text-align: center;
+    padding: 2rem 0rem;
+
+}
+
+.btn_container {
+    width:200px
+}
+
+.mensaje {
+    color: var(--primary);
+    margin: 0rem;
+    font-size: 2.2rem;
+    padding: 10px;
+}
+
+.text {
+    font-weight: lighter;
+    font-size: 1.8rem;
+    margin: 0rem;
+    padding: 10px;
+}
+
+.campo span {
+    color: var(---tertiary);
+    font-size: 1.4rem;
+}
+
+.campo img {
+    padding: 1rem;
+}
+
+@media screen and (max-width:450px) {
+    .campo{
+        left:10%;
+        width:80%;
+        height: 320px;
+    }
+    
+}

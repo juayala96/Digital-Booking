@@ -1,0 +1,135 @@
+.location {
+  width: 100%;
+  background-color: var(--font-color-light);
+  border-radius: 0.5rem;
+  max-height: 4rem;
+}
+
+.searchLocationIcon {
+  color: var(--tertiary);
+  opacity: 0.5;
+  font-size: 5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.6rem;
+  z-index: 10;
+}
+
+.preselectedOption {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  color: var(--font-color-placeholder);
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.selected {
+  color: var(--secondary);
+}
+
+.space {
+  height: 0.4rem;
+  background-color: var(--tertiary);
+}
+.iconPreselected {
+  font-size: 2rem;
+  margin: 0 0.8rem 0 1.2rem;
+}
+
+li.locationSelect {
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: var(--font-color-light);
+  cursor: pointer;
+  max-width: 100%;
+  z-index: 10;
+}
+
+li.locationSelect:hover {
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: var(--quaternary);
+}
+
+.listContainer {
+  position: relative;
+  margin: 0;
+}
+ul.locationSelect {
+  z-index: 10;
+  position: absolute;
+}
+
+.listContent {
+  padding-top: 2rem;
+}
+
+.listContent hr {
+    border-top: 0.01rem solid var(--primary);
+      margin: 0px;
+        width: 98%;
+        padding: 0%;
+}
+
+.locationSelect {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.4rem;
+  outline: none;
+  appearance: none;
+  width: 100%;
+  color: var(--tertiary);
+  font-weight: 500;
+}
+
+.cityName {
+  color: var(--font-color-dark);
+  font-size: 1.6rem;
+}
+.icon {
+  font-size: 2rem;
+  margin: 0 2rem 0 1.2rem;
+}
+
+.textContainer {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+
+/*---------  RESPONSIVE ---------*/
+/* tablet version */
+@media screen and (min-width: 768px) {
+  .location {
+    width: 40%;
+    display: relative;
+  }
+
+  .iconPreselected {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
+
+  .preselectedOption {
+    padding: 0.8rem 1rem 0.8rem 0;
+  }
+
+  .cityName {
+    font-size: 1.4rem;
+  }
+}
+
+/* mobile version */
+@media screen and (max-width: 767px) {
+  .location {
+    width: 90%;
+  }
+
+  .iconPreselected {
+    margin: 0 1rem;
+  }
+}

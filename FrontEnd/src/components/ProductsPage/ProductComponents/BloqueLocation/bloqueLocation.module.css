@@ -1,0 +1,33 @@
+/* Bloque contenedor de la ubicación */
+
+.bloque_location {
+    background-color: var(--background-color-body);
+    color: var(--secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 40px;
+    height: 50px;
+    min-width: 300px;
+
+}
+
+.bloque_location_icon {
+    width: 10px;
+    height: 14px;
+}
+
+.bloque_location_info p {
+    font-size: 1.4rem;
+    padding-left: 10px;
+    margin: 0%;
+}
+
+.icon_share_fav {
+    padding: 10px 40px;
+}
+
+.icon_share_fav img {
+    padding-right: 15px
+}

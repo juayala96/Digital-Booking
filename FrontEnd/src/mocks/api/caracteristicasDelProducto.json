@@ -1,0 +1,37 @@
+[
+  {
+    "caracteristica": "Estacionamiento gratuito",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/car.png",
+    "id": "1"
+  },
+  {
+    "caracteristica": "Cocina",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/kitchen.png",
+    "id": "2"
+  },
+  {
+    "caracteristica": "Aire Acondicionado",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/air.png",
+    "id": "3"
+  },
+  {
+    "caracteristica": "Apto mascotas",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/pet.png",
+    "id": "4"
+  },
+  {
+    "caracteristica": "Pileta",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/icon+hombre+nadando.png.png",
+    "id": "6"
+  },
+    {
+    "caracteristica": "Wifi",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/freewifi.png",
+    "id": "7"
+  },
+    {
+    "caracteristica": "Televisor",
+    "iconoURL": "https://0521ptc6n2db-grupo5-imagenes.s3.us-east-2.amazonaws.com/assets/amenities/tv.png",
+    "id": "5"
+  }
+]

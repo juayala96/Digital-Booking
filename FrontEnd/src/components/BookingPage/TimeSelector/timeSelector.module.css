@@ -1,0 +1,120 @@
+    .time {
+        background-color: var(--font-color-light);
+        border-radius: 0.5rem;
+        width: 300px;
+        padding: 25px;        
+    }
+
+    .preselectedOption {
+        padding-left: 1rem;
+        display: flex;
+        align-items: center;
+        color: var(--font-color-placeholder);
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        height: 4rem;
+    }
+
+    .selected {
+        color: var(--secondary);
+        border-radius: 5px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);  
+    }
+
+    .space {
+        height: 0.1rem;
+    }
+
+    li.locationSelect {
+        padding-left: 20px;
+        font-weight: 700;
+        background-color: var(--font-color-light);
+        cursor: pointer;
+        z-index: 10;
+        position: relative;
+    }
+
+    li.locationSelect:hover {
+        font-weight: 700;
+        background-color: #a0dfd9;
+    }
+
+    .listContainer {
+        position: absolute;
+        margin-top: -475px;
+        margin-left: 200px;
+        width: 100px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    ul.locationSelect {
+        z-index: 10;
+        position: relative;
+    }
+
+    .listContent {
+        padding:  0.5rem 0rem;
+    }
+
+    .locationSelect {
+        font-size: 1.4rem;
+        width: 100%;
+        color: var(--tertiary);
+        font-weight: 500;
+    }
+
+    .time_value {
+        color: var(--font-color-dark);
+        font-size: 1.6rem;
+    }
+
+    .textContainer {
+        display: flex;
+        width: calc(90%);
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    /*---------  RESPONSIVE ---------*/
+    /* tablet version */
+    @media screen and (max-width: 1023px) {
+        .listContainer {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+        .time {
+            display: relative;
+        }
+
+        .listContainer{
+            width: 280px;
+        }
+
+        .iconPreselected {
+            font-size: 2rem;
+            margin: 0 0.5rem;
+        }
+
+        .cityName {
+            font-size: 1.4rem;
+        }
+    }
+
+    /* mobile version */
+    @media screen and (max-width: 450px) {
+        .time {
+            width: 250px;
+        }
+
+        .listContainer{
+            width: 100px;
+        }
+        .preselectedOption{
+                        padding-top: 0px;
+                        padding-bottom: 0px;
+        }
+    }
+
+

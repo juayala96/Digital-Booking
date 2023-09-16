@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    background-color: #383B58;
+    display: flex;
+    justify-content: center;
+    min-width: 380px;
+}
+.close_gallery_button{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: var(--font-color-light);
+    right: 50px;
+    top: 50px;
+    z-index: 1;
+}

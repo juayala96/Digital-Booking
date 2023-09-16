@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;600;700&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: var(--font-color-light);
+}
+
+:root {
+  --primary: #1dbeb4;
+  --secondary: #383b58;
+  --tertiary: #545776;
+  --quaternary: #ececef;
+  --font-color-light: #ffffff;
+  --font-color-dark: #000000;
+  --font-color-placeholder: #a2a2a2;
+  --background-color-body: #ececef;
+  --alert-backgroud: #ffe1e1;
+  --alert-border: #ac142e;
+
+  /* --mobile-breakpoint: 480px;
+  --tablet-breakpoint: 481px;
+  --desktop-breakpoint: 769px; */
+}
+
+html {
+  font-size: 62.5%;
+  /* Hace que 1 rem sea = a 10 px para calcular más fácil */
+  scroll-behavior: smooth;
+  background-color: var(--font-color-light);
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+input:required:invalid {
+  background-color: var(--alert-backgroud);
+  border: 2px solid var(--alert-border);
+}

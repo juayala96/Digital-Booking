@@ -1,0 +1,27 @@
+.menu-drawer-container {
+    background-color: #FFFFFF;
+    width: 70%;
+    height: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    z-index: 11;
+    right:0px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        top: 0px;
+        bottom: 0px;
+        right:0px;
+        left: 0px;
+        min-width: 380px;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+}
